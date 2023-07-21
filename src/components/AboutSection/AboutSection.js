@@ -2,7 +2,7 @@ import ChefsImage from "../../icons_assets/Mario and Adrian A.jpg"
 
 const AboutSection = () => {
   return (
-    <div className="flex justify-between items-center max-w-4xl w-full gap-8 p-8">
+    <div id="about" className="flex justify-between items-center max-w-4xl w-full gap-8 p-8">
       <div className="max-w-md">
         <h1 className="text-4xl">Little Lemon</h1>
         <h3 className="text-2xl mb-2">Chicago</h3>

@@ -7,7 +7,7 @@ const HighLightsSection = () => {
   const lorem = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi odit praesentium, sint aut rem hic itaque! Sapiente enim dolorum deleniti tenetur, aliquam illo cumque molestiae totam, dolores, fuga molestias necessitatibus!";
 
   return (
-    <div className="flex flex-col items-center p-8 max-w-4xl gap-12">
+    <div id="menu" className="flex flex-col items-center p-8 max-w-4xl gap-12">
       <div className="flex w-full justify-between items-center">
         <h1 className="text-3xl">This week specials!</h1>
         <button className="bg-[#F4CE14] text-black px-4 py-2 rounded-xl font-semibold">Online Menu</button>

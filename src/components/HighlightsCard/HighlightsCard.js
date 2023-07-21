@@ -1,5 +1,4 @@
-import GreekSalad from "../../icons_assets/greek salad.jpg"
-import Motocycle from "../../icons_assets/basket .svg"
+import Basket from "../../icons_assets/basket .svg"
 
 const HighLightsCard = (props) => {
   return (
@@ -15,7 +14,8 @@ const HighLightsCard = (props) => {
         <p className="text-sm">{props.description}</p>
         <div className="flex items-center gap-4 mt-8 mb-6">
           <p className="text-sm font-bold">Order a delivery</p>
-          <img src={Motocycle} className="w-6"></img>
+          <img src={Basket} className="w-6"
+          alt="nasket icon"></img>
         </div>
       </div>
     </div>

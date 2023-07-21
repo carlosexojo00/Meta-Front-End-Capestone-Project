@@ -1,7 +1,7 @@
 const Testimonial = (props) => {
   return (
     <div className="flex flex-col items-center bg-white p-6 rounded-xl">
-      <h4 className="mb-4">{props.rating}</h4>
+      <h4 className="mb-4 text-4xl">{props.rating}</h4>
       <div className="flex items-center gap-4 mb-6">
         <div className="w-12">
           <img src={props.img} alt="Testimonial people" className="h-12 w-full rounded-full object-cover"/>
