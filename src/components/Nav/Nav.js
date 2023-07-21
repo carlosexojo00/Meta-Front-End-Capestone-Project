@@ -1,7 +1,7 @@
 const Nav = () => {
   return (
     <nav>
-      <ul>
+      <ul className="flex flex-col gap-4 md:flex-row">
         <li><a href="#">HOME</a></li>
         <li><a href="#">ABOUT</a></li>
         <li><a href="#">MENU</a></li>

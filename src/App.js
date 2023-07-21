@@ -6,10 +6,14 @@ import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <>
-      <Header />
-      <Nav />
-      <Main />
-      <Footer />
+      <div className="flex flex-col min-h-screen">
+        <div className="flex flex-col justify-center items-center gap-8 text-center md:gap-28 p-8 md:flex-row">
+          <Header />
+          <Nav />
+        </div>
+        <Main />
+        <Footer />
+      </div>
     </>
   );
 }
