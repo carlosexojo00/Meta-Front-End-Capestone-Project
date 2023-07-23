@@ -69,7 +69,7 @@ const BookingForm = (props) => {
           <option>Birthday</option>
           <option>Anniversary</option>
       </select>
-      <input type="submit" value="Make Your reservation" className="bg-[#495E57] py-2 px-4 text-xl text-white disabled:opacity-40" disabled={isInvalidForm}></input>
+      <input type="submit" value="Make Your reservation" className="bg-[#495E57] py-2 px-4 text-xl text-white disabled:opacity-40" disabled={isInvalidForm} aria-label="On Click"></input>
     </form>
   )
 }
